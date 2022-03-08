@@ -1,0 +1,16 @@
+/* Created by: Graeme
+ * Created on: Mar 7 2022
+ * This CSS file defines the style for index.html 
+*/
+
+body {
+	background-color: #008080;
+}
+
+h1 {
+	color: indigo;
+}
+.Cookies {
+	max-width: 15%
+}
+
