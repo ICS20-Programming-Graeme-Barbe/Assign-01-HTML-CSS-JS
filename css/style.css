@@ -4,13 +4,19 @@
 */
 
 body {
-	background-color: #008080;
+	background-color: lightgray;
 }
 
 h1 {
-	color: indigo;
+	
 }
-.Cookies {
-	max-width: 15%
+
+	
+.Original_6 {
+	max-width: 27%
+}
+
+p {
+font-size: 25px;	
 }
 
