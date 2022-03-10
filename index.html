@@ -49,7 +49,7 @@
 					    </nav>
 				</header>
 					<div class="mdl-layout__drawer">
-					    <span class="mdl-layout-title">Title</span>
+					    <span class="mdl-layout-title">Menu</span>
 					    <nav class="mdl-navigation">
 					      <a class="mdl-navigation__link" href="./index.html">Home</a>
 					      <a class="mdl-navigation__link" href="./index2.html">Boston Bruins</a>
@@ -69,7 +69,7 @@
 
 				<!-- Info -->
 				<br></br>
-				<center><p>The NHL was created in November of 1917 when four club owners from the National Hockey 	Association formed a new league due to ongoing disputes with the fifth NHA owner. Over the next 18 years, teams would join and leave the league periodically, the NHL had as many as ten teams during this era. But after the Great Depression and World War II the NHL had shrunk back to six teams. The teams were:</p></center>
+				<center><p>The NHL was created in November of 1917 when four club owners from the National Hockey 	Association formed a new league due to ongoing disputes with the fifth NHA owner. Over the next 18 years, teams would join and leave the league periodically, the NHL had as many as ten teams during this era. But after the Great Depression and World War II the NHL had shrunk back to six teams, these teams are now called the original 6. The teams were:</p></center>
 				<br></br>
 
 				<!-- Table -->
@@ -118,6 +118,26 @@
 				  <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
 				  <span class="mdl-radio__label">I don't like hockey</span>
 				</label>
+
+				<!-- Button at bottom of page -->
+				<center><button id="demo-show-toast" class="mdl-button mdl-js-button mdl-button--raised" type="button">Click for a surprise!</button>
+				<div id="demo-toast-example" class="mdl-js-snackbar mdl-snackbar">
+				  <div class="mdl-snackbar__text"></div>
+				  <button class="mdl-snackbar__action" type="button"></button>
+				</div></center>
+				<script>
+					(function() {
+					  'use strict';
+					  window['counter'] = 0;
+					  var snackbarContainer = document.querySelector('#demo-toast-example');
+					  var showToastButton = document.querySelector('#demo-show-toast');
+					  showToastButton.addEventListener('click', function() {
+					    'use strict';
+					    var data = {message: 'Boston is the best'};
+					    snackbarContainer.MaterialSnackbar.showSnackbar(data);
+					  });
+					}());
+				</script>
 			</main>
 		</div>
 	</body>
