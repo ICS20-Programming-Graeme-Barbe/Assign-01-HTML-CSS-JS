@@ -31,13 +31,13 @@
 
 				<!--Header that scrolls with the text -->
 				<div class="mdl-layout mdl-js-layout">
-					<header class="mdl-layout__header mdl-layout__header--scroll">
-					    <div class="mdl-layout__header-row">
+				<header class="mdl-layout__header mdl-layout__header--scroll">
+					<div class="mdl-layout__header-row">
 							
-					      <!-- Title -->
-					      <span class="mdl-layout-title">Menu</span>
+					    <!-- Title -->
+					    <span class="mdl-layout-title">Menu</span>
 							
-					      <!-- Add spacer, to align navigation to the right -->
+					    <!-- Add spacer, to align navigation to the right -->
 					    <div class="mdl-layout-spacer"></div>
 							
 					    <!-- Navigation -->
@@ -47,7 +47,7 @@
 					        <a class="mdl-navigation__link" href="./index3.html">Toronto Maple Leafs</a>
 					        <a class="mdl-navigation__link" href="./index4.html">Montreal Canadiens</a>
 					    </nav>
-				  	</header>
+				</header>
 					<div class="mdl-layout__drawer">
 					    <span class="mdl-layout-title">Title</span>
 					    <nav class="mdl-navigation">
@@ -57,9 +57,9 @@
 					      <a class="mdl-navigation__link" href="./index4.html">Montreal Canadiens</a>
 					    </nav>
 					  	<main class="mdl-layout__content">
-				    <div class="page-content"><!-- Your content goes here --></div>
-				  </main>
-				</div>
+				   			<div class="page-content"><!-- Your content goes here --></div>
+				  		</main>
+					</div>
 
 				<!-- Header -->
 				<center><h2>The Original 6</h2>
@@ -69,15 +69,56 @@
 
 				<!-- Info -->
 				<br></br>
-				<center><p>The NHL was created in November of 1917 when four club owners from the National Hockey 	Association formed a new league due to ongoing disputes with the fifth NHA owner. Over the next 18 years, teams would join and leave the league periodically, the NHL had as many as ten teams during this era. But after the Great Depression and World War II the NHL had shrunk back to six teams.</p></center>
-				<p>Thses teams are:</p>
+				<center><p>The NHL was created in November of 1917 when four club owners from the National Hockey 	Association formed a new league due to ongoing disputes with the fifth NHA owner. Over the next 18 years, teams would join and leave the league periodically, the NHL had as many as ten teams during this era. But after the Great Depression and World War II the NHL had shrunk back to six teams. The teams were:</p></center>
 				<br></br>
-				<p>The Boston Bruins</p>
-				<img src="./images/Boston.jpg" class="team">
+
+				<!-- Table -->
+				<table  border="1">
+					<tr>
+						<th>Team</th>
+						<th>Logo</th>
+					</tr>
+					<tr>
+						<td>Boston Bruins</td>
+						<td><img src="./images/Boston.jpg" class="team"></td>
+					</tr>
+					<tr>
+						<td>Toronto Maple Leafs</td>
+						<td><img src="./images/Toronto.jpg" class="team"></td>
+					</tr>
+					<tr>
+						<td>Montreal Canadiens</td>
+						<td><img src="./images/montreal.png" class="team"></td>
+					</tr>
+					<tr>
+						<td>Chicago Blackhawks</td>
+						<td><img src="./images/Chicago.jpg" class="team"></td>
+					</tr>
+					<tr>
+						<td>Detroit Red Wings</td>
+						<td><img src="./images/detroit.png" class="team"></td>
+					</tr>
+					<tr>
+						<td>New York Rangers</td>
+						<td><img src="./images/cut.jpg" class="team"></td>
+					</tr>	
+				</table>
 				<br></br>
-				<p></p>
-				<img src="./images/Toronto.jpg" class="team">
-				<img src="./images/montreal.png" class="team">
-				<img src="./images/Chicago.jpg" class="team">
-				<img src="./images/detroit.png" class="team">
-				<img src="./images/cut.jpg" class="team">
+
+				<!-- Question -->
+				<p>Do you like hockey? Please indacate below</p>
+				<br></br>
+					
+				<!-- Radio Buttons -->
+				<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+				  <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+				  <span class="mdl-radio__label">I like hockey</span>
+				</label>
+				<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+				  <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+				  <span class="mdl-radio__label">I don't like hockey</span>
+				</label>
+			</main>
+		</div>
+	</body>
+</html>

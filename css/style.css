@@ -6,21 +6,19 @@
 body {
 	background-color: lightgray;
 }
-
-h1 {
-	
-}
-
 	
 .Original_6 {
 	max-width: 27%
 }
 
 p {
-font-size: 25px;	
+	font-size: 25px;	
 }
 
 .team{
-	max-width: 27%
+	max-width: 18%
 }
 
+table {
+	text-align: center;
+}

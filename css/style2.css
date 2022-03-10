@@ -1,0 +1,24 @@
+/* Created by: Graeme
+ * Created on: Mar 7 2022
+ * This CSS file defines the style for index.html 
+*/
+
+body {
+	background-color: #ffb602;
+}
+
+h2 {
+	background-color: rgb(1, 1, 1);
+	color: #ffb602; 
+	padding: 20px;
+	text-align: center;
+}
+
+.team {
+	max-width: 50%
+}
+
+p {
+	font-size: 25px;	
+	Text-align: center;
+}
