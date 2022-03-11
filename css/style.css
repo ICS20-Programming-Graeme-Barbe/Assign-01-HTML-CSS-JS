@@ -19,6 +19,13 @@ p {
 	max-width: 18%
 }
 
+h2 {
+	background-color: #001c63;
+	color: rgb(255, 255, 255);
+	padding: 20px;
+	text-align: center;
+}
+
 table {
 	text-align: center;
 }
