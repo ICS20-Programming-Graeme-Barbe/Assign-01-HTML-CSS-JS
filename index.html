@@ -106,21 +106,16 @@
 				<br></br>
 
 				<!-- Question -->
-				<p>Do you like hockey? Please indacate below:</p>
+				<p>How much do you like hockey? Please indicate below:</p>
 				<br></br>
 					
-				<!-- Radio Buttons -->
-				<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
-				  <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
-				  <span class="mdl-radio__label">I like hockey</span>
-				</label>
-				<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
-				  <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
-				  <span class="mdl-radio__label">I don't like hockey</span>
-				</label>
+				<!-- Default Slider -->
+				<input class="mdl-slider mdl-js-slider" type="range"
+				min="0" max="100" value="0" tabindex="0">
 
 				<!-- Button at bottom of page -->
-				<center><button id="demo-show-toast" class="mdl-button mdl-js-button mdl-button--raised" type="button">Click for a surprise!</button>
+				<br></br>
+				<center><button id="demo-show-toast" class="mdl-button mdl-js-button mdl-button--raised" type="button">Want to know a fun fact?</button>
 				<div id="demo-toast-example" class="mdl-js-snackbar mdl-snackbar">
 				  <div class="mdl-snackbar__text"></div>
 				  <button class="mdl-snackbar__action" type="button"></button>
@@ -133,7 +128,7 @@
 					  var showToastButton = document.querySelector('#demo-show-toast');
 					  showToastButton.addEventListener('click', function() {
 					    'use strict';
-					    var data = {message: 'Boston is the best!'};
+					    var data = {message: 'The first organized indoor hockey game was played March 3, 1875 at Montreal’s Victoria Skating Rink, between two teams of nine players each!'};
 					    snackbarContainer.MaterialSnackbar.showSnackbar(data);
 					  });
 					}());

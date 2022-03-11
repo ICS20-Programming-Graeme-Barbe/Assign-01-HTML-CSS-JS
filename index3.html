@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- Assign-01-HTML-CSS-JS -->
+<html lang="en-ca">
+	<head>
+		<!-- Metadata -->
+		<meta charset="utf-8">
+		<meta name="description" content="Assign-01-HTML-CSS-JS">
+		<meta name="keyword" content="immaculata, ics2o">
+		<meta name="author" content="Graeme Barbe">
+		<meta name="viewport" content="width=device-width, intial-scale-1.0">
+		<!-- Google's MDL -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-indigo.min.css" />
+		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+		<link rel="manifest" href="./fav_index/site.webmanifest">
+		<!-- Css link-->
+		<link rel="stylesheet" href="./css/style3.css">
+		<title>The Original 6</title>
+	</head>
+ 	<body>
+		<!-- Google's MDL -->
+		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			
+			<!-- Container for webpage content -->
+			<main class = "mdl-layout__content" style = "padding-left:0px">
+
+				<!--Header that scrolls with the text -->
+				<div class="mdl-layout mdl-js-layout">
+				<header class="mdl-layout__header mdl-layout__header--scroll">
+					<div class="mdl-layout__header-row">
+							
+					    <!-- Title -->
+					    <span class="mdl-layout-title">Menu</span>
+							
+					    <!-- Add spacer, to align navigation to the right -->
+					    <div class="mdl-layout-spacer"></div>
+							
+					    <!-- Navigation -->
+					    <nav class="mdl-navigation">
+					        <a class="mdl-navigation__link" href="./index.html">Home</a>
+					        <a class="mdl-navigation__link" href="./index2.html">Boston Bruins</a>
+					        <a class="mdl-navigation__link" href="./index3.html">Toronto Maple Leafs</a>
+					        <a class="mdl-navigation__link" href="./index4.html">Montreal Canadiens</a>
+					    </nav>
+				</header>
+					<div class="mdl-layout__drawer">
+					    <span class="mdl-layout-title">Menu</span>
+					    <nav class="mdl-navigation">
+					      <a class="mdl-navigation__link" href="./index.html">Home</a>
+					      <a class="mdl-navigation__link" href="./index2.html">Boston Bruins</a>
+					      <a class="mdl-navigation__link" href="./index3.html">Toronto Maple Leafs</a>
+					      <a class="mdl-navigation__link" href="./index4.html">Montreal Canadiens</a>
+					    </nav>
+					  	<main class="mdl-layout__content">
+				   			<div class="page-content"><!-- Your content goes here --></div>
+				  		</main>
+					</div>
+
+				<!-- Header and image -->
+				<h2>Toronto Maple Leafs</h2>
+				<center><img src="./images/Toronto.jpg" class="team"></center>
+
+				<!-- Info -->
+				<p>1967, what was the most monumentle event that occurred this year? The first successful human to human heart transplant perhaps or maybe the Beatles release of Sgt. Pepper's Lonely Hearts Club Band, but no, 1967 was the last year the Toronto Maple leafs won a Stanly Cup. This is such a monumentle even because the Toronto Maple Leafs have a Stanly Cup drought of over 53 seasons, this drought between championships is currently the longest in the NHL. Second place goes to the Arizona Coyotes, more then 10 seasons behind at 41 seasons.</p>
+
+				<!-- Tim Horton -->
+				<div>
+					<div style="float: left">
+						<img src="./images/Horton.jpeg" class="team2">
+					</div>
+					<div>
+						<br></br><p class="p2">You may not know the origin of the coffee shop Tim Hortons, it was started by Toronto Maple Leafs right wing, Tim Horton. Horton opened the first-ever location in Hamilton, Ontario. After a donut store manager by the name of Jim Charade had convinced him to partner with him. By 1968, it was a multimillion-dollar franchise and as of 2020, there are 3,802 Tim Hortons locations in Canada, meaning there’s a store for roughly every 9,000 Canadians.
+					</div>
+				</div>
+
+				<!-- Radio Button -->
+				<br></br>
+				<p>How do you think Tim Hortons is rated?</p>
+				<center><label  class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+					  <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+					  <span class="mdl-radio__label">Underrated</span>
+				</label>
+				<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+					  <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+					  <span class="mdl-radio__label">Properly Rated</span>
+				</label>
+				<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-3">
+					  <input type="radio" id="option-3" class="mdl-radio__button" name="options" value="3" checked>
+					  <span class="mdl-radio__label">Overrated</span>
+				</label></center>
+
+				<!-- Colored FAB button with ripple -->
+				<br></br>
+				<p>Want to say WOW, click button below: </p>
+				<center><button onclick="mybuttonclicked()"class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+				  <i class="material-icons">add</i>
+				</button></center>
+
+				<!-- Sript for the button -->
+				<script>
+					function mybuttonclicked() {
+						alert("Even without them having a good track record for winning, they are the second most valuble NHL team at 1.8 billion USD.")
+					}
+				</script>
+			</main>
+		</div>
+  	</body>
+</html>
