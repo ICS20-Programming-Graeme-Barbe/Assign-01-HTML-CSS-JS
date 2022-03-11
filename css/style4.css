@@ -4,18 +4,18 @@
 */
 
 body {
-	background-color: #003e7d;
+	background-color: #a8151e;
 }
 
 h2 {
-	background-color: rgb(255, 255, 255);
-	color: #003e7d;
-	padding: 25px;
-	text-align:center;
+	background-color: #001c63;
+	color: rgb(255, 255, 255);
+	padding: 20px;
+	text-align: center;
 }
 
 .team {
-	max-width: 33%
+	max-width: 30%
 }
 
 p {
@@ -25,5 +25,5 @@ p {
 }
 
 .team2 {
-	max-width: 500%;
+	max-width: 100%
 }
